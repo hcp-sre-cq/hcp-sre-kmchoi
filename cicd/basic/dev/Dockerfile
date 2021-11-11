@@ -1,4 +1,4 @@
-FROM docker-repo.skhynix.com/tiangolo/uvicorn-gunicorn-fastapi:python3.7
+FROM tiangolo/uvicorn-gunicorn-fastapi
 
 # env directory
 ENV USER_DIR=/root
